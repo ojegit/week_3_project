@@ -9,13 +9,15 @@ if (document.readyState !== "loading") {
 }
 
 function initializeCode() {
-  //no of entries
+  //breeds as JSON type of object
   const breeds = {
+    akita: "",
     borzoi: "",
     finnish: "lapphund",
     retriever: "golden",
     shiba: "",
-    terrier: "russell"
+    terrier: "russell",
+    pug: ""
   };
 
   // the entries are added to the <div class="container">
