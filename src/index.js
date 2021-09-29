@@ -11,13 +11,13 @@ if (document.readyState !== "loading") {
 function initializeCode() {
   //breeds as JSON type of object
   const breeds = {
-    akita: "",
-    borzoi: "",
-    finnish: "lapphund",
-    retriever: "golden",
-    shiba: "",
-    terrier: "russell",
-    pug: ""
+    akita: "", //https://en.wikipedia.org/wiki/Akita_(dog)
+    borzoi: "", //https://en.wikipedia.org/wiki/Borzoi
+    finnish: "lapphund", //https://en.wikipedia.org/wiki/Finnish_Lapphund
+    retriever: "golden", //https://en.wikipedia.org/wiki/Golden_Retriever
+    shiba: "", //https://en.wikipedia.org/wiki/Shiba_Inu
+    terrier: "russell", //https://en.wikipedia.org/wiki/Jack_Russell_Terrier
+    pug: "" //https://en.wikipedia.org/wiki/Pug
   };
 
   // the entries are added to the <div class="container">
